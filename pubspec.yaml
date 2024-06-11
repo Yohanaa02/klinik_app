@@ -1,5 +1,5 @@
 name: klinik_app
-description: Ini adalah project klinik pada mata kuliah Mobile Programming UBSI
+description: Aplikasi Klinik
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -35,12 +35,11 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-
+  dio: ^5.3.4
+  shared_preferences: ^2.2.2
   firebase_core: ^2.24.2
   cloud_firestore: ^4.13.6
   flutterfire_cli: ^1.0.0
-  shared_preferences: ^2.2.2
-  dio: ^5.3.4
 
 dev_dependencies:
   flutter_test:
@@ -65,9 +64,9 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/
+    - assets/img/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
