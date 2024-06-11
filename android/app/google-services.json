@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "302939649553",
+    "project_id": "klinik-app-18107",
+    "storage_bucket": "klinik-app-18107.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302939649553:android:56e1d80206068474fe23b0",
+        "android_client_info": {
+          "package_name": "com.yohana.klinik_app.klinik_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-a-E7-gyiEtEszeEEqTzUL5XGN_VIjjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
