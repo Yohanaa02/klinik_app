@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import '../widget/sidebar.dart';
-import 'package:klinik_app/constant.dart';
 import 'package:klinik_app/model/pasien.dart';
 import 'package:klinik_app/model/poli.dart';
 import 'package:klinik_app/ui/pasien_form_page.dart';
@@ -22,7 +21,7 @@ class _PasienPageState extends State<PasienPage> {
       drawer: Sidebar(),
         appBar: AppBar(
           title: const Text("Data Pasien"),
-          backgroundColor: Palette.,
+          backgroundColor: Colors.red,
           foregroundColor: Colors.white,
           actions: [
             GestureDetector(
@@ -40,8 +39,8 @@ class _PasienPageState extends State<PasienPage> {
         ),
         body: ListView(
           children: [
-            PasienItemPage(pasien : Pasien(namaPasien: "Safira")),
-            PasienItemPage(pasien : Pasien(namaPasien: "Na Jaemin")),
+            PasienItemPage(pasien : Pasien(nm_pasien: "Safira")),
+            PasienItemPage(pasien : Pasien(nm_pasien: "Na Jaemin")),
           ],
         )
     );

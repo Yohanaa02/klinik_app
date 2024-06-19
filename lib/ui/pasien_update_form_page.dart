@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:klinik_app/model/pasien.dart';
 import 'package:klinik_app/service/pasien_service.dart';
 import 'package:klinik_app/service/poli_service.dart';
+import 'package:klinik_app/ui/pasien_detail.dart';
 import 'package:klinik_app/ui/pasien_detail_page.dart';
 import '../model/poli.dart';
 import 'poli_detail_page.dart';

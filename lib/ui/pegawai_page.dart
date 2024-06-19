@@ -20,7 +20,7 @@ class _PegawaiPageState extends State<PegawaiPage> {
         appBar: AppBar(
           title: const Text("Data Pegawai"),
           backgroundColor: Palette.pegawai,
-          foregroundColor: Palette.white,
+          foregroundColor: Colors.white,
           actions: [
             GestureDetector(
                 onTap: () {

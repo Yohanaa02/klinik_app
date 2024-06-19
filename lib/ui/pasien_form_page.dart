@@ -42,7 +42,7 @@ class _PasienFormPageState extends State<PasienFormPage> {
   Widget _tombolSimpan() {
     return ElevatedButton(
         onPressed: () {
-          Pasien pasien = Pasien(namaPasien: _namaPasienCtrl.text);
+          Pasien pasien = Pasien(nm_pasien: _namaPasienCtrl.text);
           Navigator.pushReplacement(
               context,
               MaterialPageRoute(

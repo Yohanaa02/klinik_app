@@ -4,6 +4,7 @@ import 'package:klinik_app/service/pasien_service.dart';
 import 'package:klinik_app/service/poli_service.dart';
 import 'package:klinik_app/ui/pasien_form_page.dart';
 import 'package:klinik_app/ui/pasien_form_update.dart';
+import 'package:klinik_app/ui/pasien_update_form_page.dart';
 import 'package:klinik_app/ui/poli_form_page.dart';
 import 'package:klinik_app/ui/poli_form_update_page.dart';
 import '../model/poli.dart';
@@ -89,4 +90,6 @@ class _PasienDetailPageState extends State<PasienDetailPage> {
       child: Text("Hapus"),
     );
   }
+
+
 }
