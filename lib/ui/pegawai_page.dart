@@ -3,7 +3,6 @@ import 'package:klinik_app/model/pegawai.dart';
 import 'package:klinik_app/ui/pegawai_form_page.dart';
 import 'package:klinik_app/ui/pegawai_item_page.dart';
 import '../widget/sidebar.dart';
-import 'package:klinik_app/constant.dart';
 
 class PegawaiPage extends StatefulWidget {
   const PegawaiPage({super.key});
@@ -19,7 +18,7 @@ class _PegawaiPageState extends State<PegawaiPage> {
         drawer: Sidebar(),
         appBar: AppBar(
           title: const Text("Data Pegawai"),
-          backgroundColor: Palette.pegawai,
+          backgroundColor: Colors.red,
           foregroundColor: Colors.white,
           actions: [
             GestureDetector(
